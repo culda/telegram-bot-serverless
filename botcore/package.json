@@ -1,0 +1,17 @@
+{
+  "name": "botcore",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ts-node -T ./scripts/build.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.4.10",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.1",
+    "tsconfig": "workspace:*",
+    "typescript": "~4.9.3"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "tsconfig/tsconfig.json",
+  "include": ["scripts"],
+  "compilerOptions": {
+    "outDir": "out-tsc"
+  }
+}

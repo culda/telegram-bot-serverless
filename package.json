@@ -1,0 +1,14 @@
+{
+  "name": "telegram-serverless",
+  "packageManager": "yarn@3.6.1",
+  "workspaces": [
+    "infra",
+    "botcore",
+    "tsconfig",
+    "tools"
+  ],
+  "scripts": {
+    "infra": "yarn workspace infra",
+    "botcore": "yarn workspace botcore"
+  }
+}
